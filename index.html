@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <title>Mi primera página</title>
     <link rel="stylesheet" href="styles.css">
-
     <style>
         body {
             text-align: center;
             margin-top: 50px;
             font-family: Arial, sans-serif;
         }
-
         h1 {
             font-size: 48px;
         }
@@ -22,57 +20,61 @@
             margin-top: 30px;
             flex-wrap: wrap;
         }
-
         .imagen img {
             width: 250px;
             height: 200px;
-            object-fit: cover; /* mantiene proporción sin deformar */
+            object-fit: cover;
             border-radius: 10px;
         }
-
         .credito {
             font-size: 14px;
             color: #555;
             margin-top: 5px;
         }
-
         .creadores {
             margin-top: 40px;
             font-size: 18px;
             color: gray;
         }
     </style>
-
 </head>
 <body>
-
     <h1>Hola</h1>
     <p>Esta es nuestra primera página web.</p>
 
     <div class="galeria">
-
         <div class="imagen">
             <img src="imagen1.jpg" alt="Imagen Franco">
             <p class="credito">Agregada por Franco</p>
         </div>
-
         <div class="imagen">
             <img src="imagen2.jpg" alt="Imagen Yonathal">
             <p class="credito">Agregada por Yonathal</p>
         </div>
-
         <div class="imagen">
             <img src="imagen3.jpg" alt="Imagen Anthony">
             <p class="credito">Agregada por Anthony</p>
         </div>
-
     </div>
 
-    <div class="creadores">
-        <h3>Creadores</h3>
-        <p>Franco de los Santos</p>
-        <p>Yonathal Diaz</p>
-        <p>Anthony Ramos</p>
+    <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <div class="lista">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <div class="creadores">
+            <h3>Creadores</h3>
+            <p>Franco de los Santos</p>
+            <p>Yonathal Diaz</p>
+            <p>Anthony Ramos</p>
+        </div>
     </div>
 
 </body>
