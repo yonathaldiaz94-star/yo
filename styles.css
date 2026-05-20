@@ -10,7 +10,7 @@
 }
 
 .credito {
-    color: rgb(0, 255, 234);
+    color: rgb(129, 78, 0);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     border: 1px solid rgb(13, 194, 194);
@@ -22,7 +22,7 @@
     align-items: center;
     border: 2px solid rgb(255, 102, 0);
     padding: 15px 40px;
-    background-color: #521010;
+    background-color: #0b5002;
     width: 50px;
     box-sizing: border-box;
 }
@@ -38,4 +38,14 @@
 .imagen img:hover {
     transform: scale(1.05);
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.bienvenida {
+    background-color: lightblue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 20px;
+    width: 110%;
+    margin:auto;
+
 }
