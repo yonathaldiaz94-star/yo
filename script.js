@@ -10,7 +10,6 @@ loginForm.style.display = "none";
 registerForm.style.display = "flex";
 }
 
-// REGISTRO
 registerForm.addEventListener("submit", function(e) {
 e.preventDefault();
 const usuario = document.getElementById("registerUser").value;
@@ -26,7 +25,8 @@ mensaje.style.color = "green";
 mensaje.textContent = "Usuario registrado correctamente";
 registerForm.reset();
 });
-// LOGIN
+
+
 loginForm.addEventListener("submit", function(e) {
 e.preventDefault();
 const email = document.getElementById("loginEmail").value;
@@ -36,8 +36,9 @@ if(usuarioGuardado && email === usuarioGuardado.email && password ===
 usuarioGuardado.password) {
 mensaje.style.color = "green";
 mensaje.textContent = "Login correcto";
-// REDIRECCION
-window.location.href = "panel.html";
+
+
+window.location.href = "Pagina-Web.html";
 } else {
 mensaje.style.color = "red";
 mensaje.textContent = "Correo o contraseña incorrectos";
