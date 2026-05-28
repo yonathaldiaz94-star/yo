@@ -1,0 +1,47 @@
+.imagen img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.encabezado {
+    background-color: #41083e;
+    color: white;
+}
+
+
+.top-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+
+.logo {
+    width: 130px;
+    height: auto;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.titulo-contenedor {
+    width: 100%;
+    text-align: center;
+}
+
+.titulo-contenedor h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.titulo-contenedor p {
+    font-size: 20px;
+}
+
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
