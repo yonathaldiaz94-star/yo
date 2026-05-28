@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - OmniTech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-box">
+            <h1>OmniTech</h1>
+
+            <div class="buttons">
+                <button onclick="mostrarLogin()">Login</button>
+                <button onclick="mostrarRegister()">Register</button>
+            </div>
+
+            <form id="loginForm">
+                <input type="email" id="loginEmail" placeholder="Correo" required>
+                <input type="password" id="loginPassword" placeholder="Contraseña" required>
+                <button type="submit">Ingresar</button>
+            </form>
+
+            <form id="registerForm" style="display:none;">
+                <input type="text" id="registerUser" placeholder="Usuario" required>
+                <input type="email" id="registerEmail" placeholder="Correo" required>
+                <input type="password" id="registerPassword" placeholder="Contraseña" required>
+                <button type="submit">Registrarse</button>
+            </form>
+
+            <p id="mensaje"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
